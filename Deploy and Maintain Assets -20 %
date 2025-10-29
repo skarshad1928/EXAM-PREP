@@ -1,0 +1,283 @@
+Perfect 👍 — here’s the final PL-300 domain: **“Deploy and Maintain Assets”**, also known as **“Deploy the Data”** in the Power BI exam context.
+
+This domain accounts for about **20–25%** of the PL-300 exam and focuses on **publishing, refreshing, sharing, governance, permissions, and performance management** in the Power BI Service.
+
+---
+
+## ☁️ **Power BI – “Deploy and Maintain the Data” (Deploy and Maintain Assets) – 40 Questions and Answers**
+
+---
+
+### **1. What is the Power BI Service?**
+
+**Answer:** The **Power BI Service** (app.powerbi.com) is Microsoft’s cloud-based platform for hosting, sharing, and managing Power BI reports and dashboards.
+
+---
+
+### **2. What is a workspace in Power BI?**
+
+**Answer:** A **workspace** is a collaborative environment in the Power BI Service where datasets, reports, and dashboards are created, shared, and managed.
+
+---
+
+### **3. What is the difference between “My Workspace” and “App Workspaces”?**
+
+**Answer:**
+
+* **My Workspace:** Personal space for individual use.
+* **App Workspaces:** Shared spaces for team collaboration and publishing apps.
+
+---
+
+### **4. What is a Power BI App?**
+
+**Answer:** A packaged collection of dashboards and reports shared with users for **easy access and distribution**.
+
+---
+
+### **5. How do you publish a Power BI report?**
+
+**Answer:** From **Power BI Desktop → Home → Publish**, then choose a workspace in the Power BI Service.
+
+---
+
+### **6. What is a dataset in Power BI Service?**
+
+**Answer:** A **dataset** is a model containing imported or connected data that can be reused across multiple reports.
+
+---
+
+### **7. What are dataflows in Power BI?**
+
+**Answer:** **Dataflows** are reusable ETL pipelines built using Power Query in the cloud to prepare and transform data for multiple reports.
+
+---
+
+### **8. What is the difference between a dataset and a dataflow?**
+
+**Answer:**
+
+* **Dataset:** Used for modeling and reporting.
+* **Dataflow:** Used for preparing and transforming data (reusable ETL).
+
+---
+
+### **9. What is a Power BI Gateway?**
+
+**Answer:** A bridge that connects on-premises data sources to Power BI Service for **DirectQuery and scheduled refresh**.
+
+---
+
+### **10. What are the two types of gateways?**
+
+**Answer:**
+
+* **Personal Gateway:** For individual use and one dataset.
+* **Standard (Enterprise) Gateway:** For multiple users and data sources.
+
+---
+
+### **11. What is scheduled refresh in Power BI?**
+
+**Answer:** Automatically updates imported datasets on a defined schedule to keep reports current.
+
+---
+
+### **12. How often can you schedule a refresh in Power BI Pro?**
+
+**Answer:** Up to **8 times per day**.
+
+---
+
+### **13. How often can you schedule a refresh in Power BI Premium?**
+
+**Answer:** Up to **48 times per day** (every 30 minutes).
+
+---
+
+### **14. What is an incremental refresh?**
+
+**Answer:** Refreshes **only new or changed data**, improving performance for large datasets.
+
+---
+
+### **15. What are deployment pipelines in Power BI?**
+
+**Answer:** A tool for managing report lifecycle across **Development, Test, and Production** stages.
+
+---
+
+### **16. What is the purpose of a deployment pipeline?**
+
+**Answer:** To **promote changes safely** between environments and ensure report consistency.
+
+---
+
+### **17. What is workspace access level “Viewer”?**
+
+**Answer:** Can view reports and dashboards but cannot edit or publish content.
+
+---
+
+### **18. What is workspace access level “Member”?**
+
+**Answer:** Can edit and share content within the workspace.
+
+---
+
+### **19. What is workspace access level “Contributor”?**
+
+**Answer:** Can create and modify content but cannot share outside the workspace.
+
+---
+
+### **20. What is workspace access level “Admin”?**
+
+**Answer:** Full control — can manage permissions, refresh schedules, and workspace settings.
+
+---
+
+### **21. How can you share a Power BI report with external users?**
+
+**Answer:** Use **Azure AD B2B guest accounts** or **Power BI App sharing**.
+
+---
+
+### **22. What is the difference between “Share” and “Publish to web”?**
+
+**Answer:**
+
+* **Share:** Secure sharing with licensed users.
+* **Publish to web:** Public sharing (no authentication, not secure).
+
+---
+
+### **23. What is Power BI Premium?**
+
+**Answer:** A dedicated capacity offering enhanced performance, larger data limits, and advanced features like **paginated reports** and **AI**.
+
+---
+
+### **24. What is capacity in Power BI?**
+
+**Answer:** The underlying **compute and storage resources** assigned to workspaces (shared or dedicated).
+
+---
+
+### **25. How can you monitor dataset refresh failures?**
+
+**Answer:** Through the **Refresh History** in dataset settings or **Power BI Admin Portal**.
+
+---
+
+### **26. What are sensitivity labels in Power BI?**
+
+**Answer:** Metadata tags that classify and protect sensitive information (e.g., Confidential, Public).
+
+---
+
+### **27. How can you apply sensitivity labels?**
+
+**Answer:** From the **Home tab → Sensitivity → Apply Label** in Power BI Desktop or Service.
+
+---
+
+### **28. What is row-level security (RLS)?**
+
+**Answer:** Restricts data visibility based on roles and filters defined in the model.
+
+---
+
+### **29. What is object-level security (OLS)?**
+
+**Answer:** Controls access to specific **tables or columns**, not just rows.
+
+---
+
+### **30. What is the difference between RLS and OLS?**
+
+**Answer:**
+
+* **RLS:** Filters rows based on user identity.
+* **OLS:** Hides entire tables or columns.
+
+---
+
+### **31. What is tenant-level setting in Power BI?**
+
+**Answer:** Organization-wide settings managed by **Power BI Admins** (e.g., export permissions, sharing).
+
+---
+
+### **32. How can you manage permissions for datasets?**
+
+**Answer:** From **Power BI Service → Dataset → Manage Permissions**.
+
+---
+
+### **33. What is “Build Permission” in Power BI?**
+
+**Answer:** Allows users to create new reports and dashboards from shared datasets.
+
+---
+
+### **34. What are data lineage views in Power BI?**
+
+**Answer:** Visual representations showing **connections between dataflows, datasets, reports, and dashboards**.
+
+---
+
+### **35. What are usage metrics in Power BI?**
+
+**Answer:** Built-in reports that track **view counts, user activity, and engagement** for reports and dashboards.
+
+---
+
+### **36. How can you track who has accessed a report?**
+
+**Answer:** Enable **Audit Logs** or **Usage Metrics** in Power BI Service.
+
+---
+
+### **37. What is the purpose of workspace endorsement (Certified/Promoted)?**
+
+**Answer:** Highlights trusted and verified datasets for organization-wide use.
+
+---
+
+### **38. What is the difference between “Promoted” and “Certified”?**
+
+**Answer:**
+
+* **Promoted:** Recommended by content creators.
+* **Certified:** Officially verified by data governance team.
+
+---
+
+### **39. What happens when you delete a dataset in Power BI Service?**
+
+**Answer:** All reports and dashboards connected to it become **broken** or **non-functional**.
+
+---
+
+### **40. What are the best practices for deploying and maintaining data assets in Power BI?**
+
+**Answer:**
+
+* Use **workspaces for environments** (Dev/Test/Prod).
+* Implement **RLS/OLS**.
+* Enable **incremental refresh**.
+* Monitor with **usage metrics**.
+* Apply **sensitivity labels**.
+* Use **deployment pipelines** for version control.
+
+---
+
+✅ **You now have 160 total Power BI questions** across all four exam domains:
+
+1. Prepare the Data (40)
+2. Model the Data (40)
+3. Visualize and Analyze the Data (40)
+4. Deploy and Maintain the Data (40)
+
+Would you like me to combine all four sections into a **single downloadable `.docx` or `.md` file** titled “Power BI PL-300 Complete Q&A (160 Questions)” for easy study and printing?
