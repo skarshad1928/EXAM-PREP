@@ -1,0 +1,219 @@
+Perfect 👍 — here’s **Part 2 (Questions 31–60)** in the same **Question + Answer** format.
+These extend your Power BI set with deeper DAX, data modeling, visualization, and admin-level questions.
+
+---
+
+## 🧩 **Power BI Questions and Answers – Part 2 (31 to 60)**
+
+---
+
+### **31. What is the best way to replace values in a specific column in Power Query?**
+
+**Answer:** Use the **Replace Values** option from the column’s right-click menu in Power Query Editor.
+
+---
+
+### **32. What is the difference between Calculated Columns and Measures in Power BI?**
+
+**Answer:**
+
+* **Calculated Columns** are evaluated row by row and stored in the data model.
+* **Measures** are calculated on the fly based on filters and context, using less memory.
+
+---
+
+### **33. What is the difference between Import and DirectQuery mode?**
+
+**Answer:**
+
+* **Import mode** loads data into Power BI, enabling fast performance but larger file sizes.
+* **DirectQuery mode** queries the source in real-time but depends on source performance.
+
+---
+
+### **34. What is the purpose of the RELATED function in DAX?**
+
+**Answer:** The **RELATED()** function retrieves a related value from another table using an existing relationship.
+
+---
+
+### **35. What is the function of the CALCULATETABLE in DAX?**
+
+**Answer:** **CALCULATETABLE()** returns a table that has been filtered or modified by specified DAX expressions.
+
+---
+
+### **36. What does the DISTINCTCOUNT function do in Power BI?**
+
+**Answer:** It returns the **number of distinct (unique) values** in a column.
+
+---
+
+### **37. How can you optimize a large dataset model in Power BI?**
+
+**Answer:**
+
+* Remove unused columns.
+* Use **Star Schema** modeling.
+* Use **Aggregations** or **composite models**.
+* Avoid calculated columns when possible.
+
+---
+
+### **38. What is Row-Level Security (RLS) in Power BI?**
+
+**Answer:** RLS restricts data access for users by defining **roles and filters** in the data model.
+
+---
+
+### **39. What is the difference between “Manage Roles” and “View as Role”?**
+
+**Answer:**
+
+* **Manage Roles** defines RLS filters.
+* **View as Role** tests how the report appears to users with those roles.
+
+---
+
+### **40. What is the purpose of the USERPRINCIPALNAME() DAX function?**
+
+**Answer:** It returns the **logged-in user’s email or username**, often used for dynamic RLS.
+
+---
+
+### **41. How can you share a Power BI report with people outside your organization?**
+
+**Answer:** Use **Power BI Service sharing** with **Azure B2B guest users** or **publish to web** (if data sensitivity allows).
+
+---
+
+### **42. What is a composite model in Power BI?**
+
+**Answer:** A model combining **Import and DirectQuery** tables within the same dataset.
+
+---
+
+### **43. How does Power BI handle circular relationships?**
+
+**Answer:** Circular relationships are **not allowed**; they must be resolved by removing or redesigning relationships.
+
+---
+
+### **44. What is the difference between slicers and filters?**
+
+**Answer:**
+
+* **Slicers** are on-page visual controls for filtering.
+* **Filters** can be applied at visual, page, or report levels in the Filter pane.
+
+---
+
+### **45. What is the function of the TOPN DAX function?**
+
+**Answer:** **TOPN()** returns the top *N* rows of a table based on a specified expression.
+
+---
+
+### **46. How can you create hierarchies in Power BI?**
+
+**Answer:** Drag and drop fields into another in the **Model View** or **Fields pane** to create a hierarchy (e.g., Year → Month → Day).
+
+---
+
+### **47. What is the difference between ALLSELECTED and ALL DAX functions?**
+
+**Answer:**
+
+* **ALL()** removes all filters.
+* **ALLSELECTED()** removes filters except those applied by the user’s visual selection.
+
+---
+
+### **48. What does the FILTER DAX function do?**
+
+**Answer:** **FILTER()** returns a **subset of a table** that meets a specific condition.
+
+---
+
+### **49. What is the main purpose of the SUMX DAX function?**
+
+**Answer:** **SUMX()** iterates over a table and sums the result of an expression for each row.
+
+---
+
+### **50. What is Quick Measure in Power BI?**
+
+**Answer:** A **predefined DAX template** that lets you create measures using a GUI without writing code manually.
+
+---
+
+### **51. What is a Power BI Gateway?**
+
+**Answer:** It acts as a **bridge between on-premises data and Power BI Service**, allowing scheduled refreshes or DirectQuery connections.
+
+---
+
+### **52. How do you enable scheduled refresh for an imported dataset?**
+
+**Answer:** Configure a **Gateway connection** and **Schedule Refresh** in the dataset settings on Power BI Service.
+
+---
+
+### **53. What are bookmarks used for in Power BI?**
+
+**Answer:** Bookmarks **save the current state** (filters, visuals, selections) of a report page to enable storytelling and navigation.
+
+---
+
+### **54. How can you create dynamic titles in Power BI visuals?**
+
+**Answer:** Use a **measure or field value** with concatenation (e.g., `"Sales Report for " & SELECTEDVALUE(Region)`).
+
+---
+
+### **55. What is the difference between Power BI Dashboard and Report?**
+
+**Answer:**
+
+* **Dashboard:** One-page view with pinned visuals (Power BI Service only).
+* **Report:** Multi-page, interactive visuals (created in Power BI Desktop).
+
+---
+
+### **56. What are parameters in Power BI?**
+
+**Answer:** Parameters allow users to **change input values dynamically**, such as file paths, filters, or data sources in Power Query.
+
+---
+
+### **57. What is the main difference between Power BI Pro and Power BI Premium?**
+
+**Answer:**
+
+* **Pro:** Individual license with collaboration in shared workspaces.
+* **Premium:** Dedicated capacity, larger datasets, and advanced AI features for enterprise use.
+
+---
+
+### **58. How can you handle missing or null data in Power Query?**
+
+**Answer:** Use **Replace Values**, **Remove Rows with Errors**, or **Fill Down/Up** options in Power Query Editor.
+
+---
+
+### **59. What is the purpose of the Drillthrough feature in Power BI?**
+
+**Answer:** Drillthrough lets users **right-click a data point** to navigate to a **detailed page** filtered for that specific context.
+
+---
+
+### **60. What is the difference between Power BI and Tableau?**
+
+**Answer:**
+
+* **Power BI:** Microsoft ecosystem integration, cost-effective, strong DAX and modeling.
+* **Tableau:** More advanced visual customization and design flexibility.
+
+---
+
+Would you like me to now compile **Parts 1 & 2 (Q1–60)** into a single neatly formatted `.docx` or `.md` file so you can download and share it easily?
