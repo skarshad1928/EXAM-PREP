@@ -1,0 +1,260 @@
+Excellent 👌 — you want **40 Power BI “Prepare the Data” questions and answers**, focused on **data loading, transformation, cleaning, Power Query, and connection basics** — exactly what’s tested in the **PL-300 “Prepare the Data” section (15–20%)**.
+
+Here’s a comprehensive, interview-plus-exam-style **Q&A set (1–40)**:
+
+---
+
+## 🧩 **Power BI – “Prepare the Data” Questions and Answers (1–40)**
+
+---
+
+### **1. What tool in Power BI is primarily used to clean and transform data before loading?**
+
+**Answer:** **Power Query Editor**.
+
+---
+
+### **2. What are the three main stages of data preparation in Power BI?**
+
+**Answer:** **Connect**, **Transform**, and **Load** (ETL process).
+
+---
+
+### **3. What is the default data connectivity mode when importing from Excel?**
+
+**Answer:** **Import mode**.
+
+---
+
+### **4. What is the difference between Import and DirectQuery mode?**
+
+**Answer:**
+
+* **Import:** Data is copied into Power BI for fast performance.
+* **DirectQuery:** Queries the source live; no data is stored in Power BI.
+
+---
+
+### **5. How can you remove duplicate rows in Power Query?**
+
+**Answer:** Select the column(s) → **Remove Rows → Remove Duplicates**.
+
+---
+
+### **6. What is the purpose of the “Use First Row as Headers” option in Power Query?**
+
+**Answer:** Promotes the first row to be used as column headers.
+
+---
+
+### **7. How do you merge two queries in Power Query?**
+
+**Answer:** Use **Home → Merge Queries**, then specify join type and key columns.
+
+---
+
+### **8. What is the difference between Merge and Append in Power Query?**
+
+**Answer:**
+
+* **Merge:** Combines columns from related tables (joins).
+* **Append:** Stacks rows from similar tables (union).
+
+---
+
+### **9. How can you handle null or missing values in Power Query?**
+
+**Answer:** Replace them using **Replace Values**, or remove them with **Remove Empty Rows**.
+
+---
+
+### **10. What is query folding in Power Query?**
+
+**Answer:** The process where transformations are **pushed back to the data source** for faster execution.
+
+---
+
+### **11. Which step in Power Query defines the order of data transformations?**
+
+**Answer:** The **Applied Steps** pane lists transformations sequentially.
+
+---
+
+### **12. How can you change the data type of a column in Power Query?**
+
+**Answer:** Click the data type icon in the column header or use **Transform → Data Type**.
+
+---
+
+### **13. What language is used behind the scenes in Power Query?**
+
+**Answer:** The **M (Power Query Formula Language)**.
+
+---
+
+### **14. What is the purpose of the “Advanced Editor” in Power Query?**
+
+**Answer:** To view and edit the M script of all transformations applied.
+
+---
+
+### **15. How do you filter rows that contain a specific value in Power Query?**
+
+**Answer:** Use the column filter dropdown or the **Text/Number Filters** option.
+
+---
+
+### **16. What happens when you disable “Load to Report” for a query?**
+
+**Answer:** The query remains in Power Query for reference but isn’t loaded into the data model.
+
+---
+
+### **17. What is a parameter in Power Query?**
+
+**Answer:** A dynamic value that can be changed to control data source paths, filters, or limits.
+
+---
+
+### **18. How can you combine multiple Excel sheets into one table automatically?**
+
+**Answer:** Use **Combine Files** option when connecting to a folder of Excel files.
+
+---
+
+### **19. How can you detect and fix errors in Power Query data?**
+
+**Answer:** Use **Keep Errors / Remove Errors** under **Home → Remove Rows**.
+
+---
+
+### **20. How can you rename multiple columns quickly in Power Query?**
+
+**Answer:** Use the **Transform → Rename Columns** or apply a custom step in M code.
+
+---
+
+### **21. How can you unpivot columns in Power Query?**
+
+**Answer:** Select the columns → **Transform → Unpivot Columns**.
+
+---
+
+### **22. What is the opposite of Unpivot in Power Query?**
+
+**Answer:** **Pivot Columns**, which aggregates rows into columns.
+
+---
+
+### **23. What does “Close & Apply” do in Power BI?**
+
+**Answer:** It saves all Power Query changes and loads data into the Power BI model.
+
+---
+
+### **24. How do you split a column into multiple parts in Power Query?**
+
+**Answer:** Use **Split Column → By Delimiter**, **By Number of Characters**, etc.
+
+---
+
+### **25. What is the use of the “Group By” function in Power Query?**
+
+**Answer:** Aggregates data (sum, average, count, etc.) by selected columns.
+
+---
+
+### **26. How can you extract specific text from a column (e.g., first 3 characters)?**
+
+**Answer:** Use **Transform → Extract → First Characters**.
+
+---
+
+### **27. How do you change column order in Power Query?**
+
+**Answer:** Drag and drop columns or use the **Choose Columns** step.
+
+---
+
+### **28. What is the benefit of disabling “Enable Load” for staging queries?**
+
+**Answer:** Reduces memory usage and improves model performance.
+
+---
+
+### **29. How can you refresh only a specific query in Power Query?**
+
+**Answer:** Right-click the query name → **Refresh Preview**.
+
+---
+
+### **30. How do you connect Power BI to a SQL Server database?**
+
+**Answer:** **Home → Get Data → SQL Server → Enter Server and Database name**.
+
+---
+
+### **31. What is incremental refresh in Power BI?**
+
+**Answer:** Loads only new or changed data during refresh instead of reloading the full dataset.
+
+---
+
+### **32. What are the main benefits of query folding?**
+
+**Answer:** Improves performance, minimizes memory usage, and leverages database engines for computation.
+
+---
+
+### **33. How can you rename queries in Power Query for better readability?**
+
+**Answer:** Right-click the query → **Rename**.
+
+---
+
+### **34. How can you remove extra spaces from text data?**
+
+**Answer:** Use **Transform → Format → Trim**.
+
+---
+
+### **35. How do you replace multiple values at once in Power Query?**
+
+**Answer:** Use **Replace Values** multiple times or create a **custom M mapping table**.
+
+---
+
+### **36. What is the purpose of the “Column Quality” and “Column Distribution” features?**
+
+**Answer:** They help detect errors, nulls, and unique value patterns in data columns.
+
+---
+
+### **37. How do you combine columns in Power Query?**
+
+**Answer:** Use **Add Column → Merge Columns**, specifying a delimiter.
+
+---
+
+### **38. What is the difference between a query reference and a query duplicate?**
+
+**Answer:**
+
+* **Duplicate:** Creates a full copy with independent steps.
+* **Reference:** Creates a linked query that depends on the original.
+
+---
+
+### **39. How can you load data from multiple files in a folder?**
+
+**Answer:** Use **Get Data → Folder**, then **Combine & Transform** to merge files automatically.
+
+---
+
+### **40. What are the benefits of cleaning data in Power Query before modeling?**
+
+**Answer:** Ensures **accuracy, performance, consistency**, and **reliable insights** in reports.
+
+---
+
+Would you like me to now prepare the **next section (“Model the Data” – 40 questions)** in the same exam-style Q&A format next?
