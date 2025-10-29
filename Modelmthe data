@@ -1,0 +1,266 @@
+Excellent 👍 — now let’s move on to the **“Model the Data”** section of Power BI (the largest part of the PL-300 exam, around **30–35% weight**).
+
+Here are **40 high-quality “Model the Data” questions and answers**, designed for **exam preparation** and **interview readiness** — focused on relationships, DAX, hierarchies, model optimization, and security.
+
+---
+
+## 🧩 **Power BI – “Model the Data” Questions and Answers (1–40)**
+
+---
+
+### **1. What is a data model in Power BI?**
+
+**Answer:** A **data model** organizes data into tables and relationships that Power BI uses for calculations and visualizations.
+
+---
+
+### **2. What is a star schema in Power BI?**
+
+**Answer:** A **star schema** consists of **one central fact table** connected to multiple **dimension tables**.
+
+---
+
+### **3. Why is a star schema preferred over a snowflake schema?**
+
+**Answer:** It provides **simpler relationships**, **faster queries**, and **better performance** in Power BI.
+
+---
+
+### **4. What types of relationships exist in Power BI?**
+
+**Answer:**
+
+* One-to-Many (1:*),
+* Many-to-One (*:1),
+* One-to-One (1:1),
+* Many-to-Many (*:*).
+
+---
+
+### **5. What is cardinality in Power BI relationships?**
+
+**Answer:** Cardinality defines the **uniqueness** between related tables (e.g., one-to-many).
+
+---
+
+### **6. What is cross-filter direction in Power BI?**
+
+**Answer:** It determines **how filters flow** between related tables — either **Single** or **Both** directions.
+
+---
+
+### **7. How can you create a relationship manually in Power BI?**
+
+**Answer:** Use **Model View → Manage Relationships → New**, then select tables and key columns.
+
+---
+
+### **8. What is an inactive relationship in Power BI?**
+
+**Answer:** A relationship not used by default but can be **activated using USERELATIONSHIP()** in DAX.
+
+---
+
+### **9. What is the purpose of the RELATED function?**
+
+**Answer:** Retrieves a related column value from another table based on an existing relationship.
+
+---
+
+### **10. What does the RELATEDTABLE function do?**
+
+**Answer:** Returns a table of related rows from another table using an active relationship.
+
+---
+
+### **11. What is a calculated column in Power BI?**
+
+**Answer:** A new column created using a **DAX formula**, stored in the model for each row.
+
+---
+
+### **12. What is a measure in Power BI?**
+
+**Answer:** A **dynamic calculation** created using DAX that aggregates data at query time.
+
+---
+
+### **13. What is the difference between a calculated column and a measure?**
+
+**Answer:**
+
+* Calculated column → Stored in model, increases size.
+* Measure → Calculated on demand, uses less memory.
+
+---
+
+### **14. What is a hierarchy in Power BI?**
+
+**Answer:** A logical structure combining related fields (e.g., Year → Quarter → Month → Day).
+
+---
+
+### **15. What is the function of the SUMX DAX function?**
+
+**Answer:** Iterates over a table and sums the result of an expression for each row.
+
+---
+
+### **16. What does the CALCULATE DAX function do?**
+
+**Answer:** Changes the filter context and evaluates an expression in that modified context.
+
+---
+
+### **17. What is row context in DAX?**
+
+**Answer:** The **current row being evaluated** in a table or iteration function.
+
+---
+
+### **18. What is filter context in DAX?**
+
+**Answer:** The set of filters applied to evaluate a measure or visual in Power BI.
+
+---
+
+### **19. What is context transition in DAX?**
+
+**Answer:** When a **row context is converted into a filter context**, typically by CALCULATE.
+
+---
+
+### **20. What is the difference between ALL and ALLEXCEPT in DAX?**
+
+**Answer:**
+
+* **ALL:** Removes all filters.
+* **ALLEXCEPT:** Removes all filters except specified columns.
+
+---
+
+### **21. What is the purpose of the VALUES function?**
+
+**Answer:** Returns a **one-column table of distinct values** from a specified column.
+
+---
+
+### **22. What is the DISTINCTCOUNT function used for?**
+
+**Answer:** Counts the **number of unique values** in a column.
+
+---
+
+### **23. What does the DIVIDE DAX function do?**
+
+**Answer:** Safely divides two numbers and handles division by zero with an optional alternate result.
+
+---
+
+### **24. What is a many-to-many relationship?**
+
+**Answer:** When both tables contain duplicate values in the key column, requiring a **bridge table** or **bidirectional filtering**.
+
+---
+
+### **25. What is a composite model in Power BI?**
+
+**Answer:** A model that supports both **Import** and **DirectQuery** connections in the same dataset.
+
+---
+
+### **26. What is the role of the “Assume Referential Integrity” setting in DirectQuery?**
+
+**Answer:** Enables **inner joins** for faster query performance when data integrity is guaranteed.
+
+---
+
+### **27. What is the purpose of role-playing dimensions?**
+
+**Answer:** To reuse a single dimension (e.g., Date) multiple times in a model for different relationships (e.g., Order Date, Ship Date).
+
+---
+
+### **28. What DAX function is used to handle blanks in calculations?**
+
+**Answer:** **COALESCE()** or **IF(ISBLANK())**.
+
+---
+
+### **29. How can you calculate a running total in DAX?**
+
+**Answer:** Use **CALCULATE([Measure], FILTER(ALL(Date), Date <= MAX(Date)))**.
+
+---
+
+### **30. What is DAX Studio used for?**
+
+**Answer:** To **analyze, debug, and optimize DAX queries** and measure performance.
+
+---
+
+### **31. What is Row-Level Security (RLS)?**
+
+**Answer:** A method to restrict user access to data rows based on **roles and filters**.
+
+---
+
+### **32. What are dynamic RLS roles?**
+
+**Answer:** Roles that filter data based on the **logged-in user’s identity** using **USERPRINCIPALNAME()**.
+
+---
+
+### **33. What are calculated tables in Power BI?**
+
+**Answer:** Tables created using DAX expressions that generate new data sets within the model.
+
+---
+
+### **34. What is the purpose of the SUMMARIZE function in DAX?**
+
+**Answer:** Groups data by specified columns and allows custom aggregations.
+
+---
+
+### **35. What is model optimization in Power BI?**
+
+**Answer:** Reducing model size and improving speed by removing unused columns, using star schema, and replacing calculated columns with measures.
+
+---
+
+### **36. How can you reduce model size?**
+
+**Answer:**
+
+* Use numeric keys.
+* Disable auto date/time.
+* Avoid high-cardinality columns.
+
+---
+
+### **37. What is the purpose of bidirectional filtering?**
+
+**Answer:** Allows filters to propagate both ways between related tables for complex relationships.
+
+---
+
+### **38. What is an inactive relationship used for?**
+
+**Answer:** To handle **multiple possible relationships** between two tables, activated only when required.
+
+---
+
+### **39. What is a surrogate key?**
+
+**Answer:** A **unique identifier** (usually numeric) used as the primary key in a dimension table.
+
+---
+
+### **40. Why is normalization avoided in Power BI data models?**
+
+**Answer:** Because **denormalized (flat) structures** with fewer joins improve report performance and usability.
+
+---
+
+Would you like me to now prepare the next set — **“Visualize and Analyze the Data” (40 questions)** — to complete the third major Power BI exam domain?
