@@ -1,0 +1,306 @@
+Perfect ✅ — I’ve reviewed your Word document again. It contains **Power BI multiple-choice and scenario-based questions** written exactly like **Microsoft PL-300 exam items** — short, technical, and focused on realistic use cases (e.g., *“You have a Power BI report with…”*).
+
+So now I’ll create **another 40 new Power BI questions** in the **same exam-style and tone as your document** — concise, professional, and varied across DAX, visuals, modeling, governance, and Power BI Service.
+
+---
+
+## 🧠 **Power BI – Additional 40 Scenario-Based Questions (Same Style as MS Word)**
+
+---
+
+**1.** You have a Power BI report that uses DirectQuery mode to connect to SQL Server. Users complain about slow loading visuals. What should you do to improve performance?
+A. Convert the connection to Import mode
+B. Enable query caching
+C. Add calculated columns in Power BI
+D. Increase the report page size
+
+**Answer:** A
+
+---
+
+**2.** What DAX function can be used to return the last non-blank value in a column?
+A. LASTDATE()
+B. LASTNONBLANK()
+C. MAX()
+D. VALUES()
+
+**Answer:** B
+
+---
+
+**3.** You need to create a report that displays total sales and percentage of total sales by region. Which visual should you use?
+A. Table
+B. Pie chart
+C. Clustered column chart with data labels
+D. Matrix
+
+**Answer:** D
+
+---
+
+**4.** Which feature enables users to refresh a dataset that resides on a local SQL Server without uploading the data to Power BI Service?
+A. Gateway
+B. DirectQuery
+C. Import mode
+D. Dataflow
+
+**Answer:** A
+
+---
+
+**5.** You need to restrict report users from seeing sensitive financial data but still allow them to view aggregated totals. What should you implement?
+A. Role-Level Security
+B. Object-Level Security
+C. Dynamic RLS
+D. Conditional formatting
+
+**Answer:** B
+
+---
+
+**6.** Which type of filter applies to all pages in a Power BI report?
+A. Visual-level filter
+B. Page-level filter
+C. Report-level filter
+D. Query filter
+
+**Answer:** C
+
+---
+
+**7.** What Power BI feature allows users to navigate to a detailed report page from a summary visual?
+A. Drillthrough
+B. Tooltip
+C. Bookmark
+D. Cross-filter
+
+**Answer:** A
+
+---
+
+**8.** You have a large dataset and need to improve report performance. What should you do?
+A. Use bidirectional filtering everywhere
+B. Reduce the number of visuals on a page
+C. Add calculated columns for all measures
+D. Enable auto date/time
+
+**Answer:** B
+
+---
+
+**9.** Which visual allows you to explore data hierarchically using “Explain the increase/decrease”?
+A. Decomposition Tree
+B. Key Influencers
+C. Matrix
+D. Line Chart
+
+**Answer:** A
+
+---
+
+**10.** What is the purpose of the “Manage Aggregations” feature?
+A. Reduce dataset size and speed up queries
+B. Create multiple relationships
+C. Enable dynamic RLS
+D. Cache the visuals
+
+**Answer:** A
+
+---
+
+**11.** Which DAX function counts all rows in a table regardless of filters?
+A. COUNTROWS()
+B. CALCULATE(COUNTROWS())
+C. COUNTX()
+D. ALL()
+
+**Answer:** D (used with CALCULATE)
+
+---
+
+**12.** You publish a Power BI report that uses Excel as its data source stored in OneDrive. How frequently can it refresh automatically?
+A. Every 5 minutes
+B. Every hour
+C. Every 15 minutes
+D. Every 30 minutes
+
+**Answer:** B
+
+---
+
+**13.** What is the main advantage of using dataflows in Power BI?
+A. Create paginated reports
+B. Reuse data preparation logic across multiple datasets
+C. Optimize visuals
+D. Control access to dashboards
+
+**Answer:** B
+
+---
+
+**14.** In Power BI, what is a measure dependency?
+A. When one measure references another measure
+B. When a calculated column references a table
+C. When filters depend on slicers
+D. When relationships depend on hierarchies
+
+**Answer:** A
+
+---
+
+**15.** Which type of workspace allows sharing content with a larger audience via apps?
+A. My Workspace
+B. Premium Workspace
+C. App Workspace
+D. Development Workspace
+
+**Answer:** C
+
+---
+
+**16.** You need to compare current-year sales with last-year sales using DAX. Which function should you use?
+A. PREVIOUSYEAR()
+B. LASTDATE()
+C. SAMEPERIODLASTYEAR()
+D. DATESYTD()
+
+**Answer:** C
+
+---
+
+**17.** What is the function of the Power BI “Performance Analyzer”?
+A. Measures data refresh duration
+B. Records the time each visual takes to render
+C. Detects row-level security issues
+D. Logs refresh errors
+
+**Answer:** B
+
+---
+
+**18.** You want users to share reports but prevent them from copying or exporting underlying data. What should you configure?
+A. Tenant settings
+B. Report-level permissions
+C. Export settings
+D. Dataset endorsement
+
+**Answer:** C
+
+---
+
+**19.** Which Power BI visual best displays a trend over time for multiple categories?
+A. Line chart
+B. Matrix
+C. Donut chart
+D. Gauge
+
+**Answer:** A
+
+---
+
+**20.** What is the purpose of the USERELATIONSHIP function?
+**Answer:** It activates an **inactive relationship** in DAX calculations.
+
+---
+
+**21.** Which DAX function ignores filters applied to all columns in a table?
+**Answer:** **ALL()**
+
+---
+
+**22.** How do you share a Power BI dataset with another report author?
+**Answer:** Grant **Build permission** on the dataset.
+
+---
+
+**23.** What feature can you use to view report usage statistics in Power BI Service?
+**Answer:** **Usage Metrics Report**
+
+---
+
+**24.** What is a composite model?
+**Answer:** A model that combines **Import** and **DirectQuery** data sources.
+
+---
+
+**25.** You have a dataset that takes 30 minutes to refresh. How can you reduce refresh time?
+**Answer:** Implement **Incremental Refresh**.
+
+---
+
+**26.** Which Power BI visual can help forecast future values based on historical trends?
+**Answer:** **Line Chart with Forecast**.
+
+---
+
+**27.** What Power BI feature lets you define relationships between queries before loading them?
+**Answer:** **Power Query Merge**
+
+---
+
+**28.** Which tool can analyze DAX query performance?
+**Answer:** **DAX Studio**
+
+---
+
+**29.** What type of Power BI account is required to share dashboards with other users?
+**Answer:** **Power BI Pro**
+
+---
+
+**30.** What happens if you delete a workspace in Power BI Service?
+**Answer:** All associated **reports, dashboards, and datasets** are deleted.
+
+---
+
+**31.** You need to connect Power BI to Azure Synapse Analytics using DirectQuery. What mode supports it?
+**Answer:** **DirectQuery Mode**
+
+---
+
+**32.** How can you dynamically highlight top 5 customers in a chart?
+**Answer:** Create a **measure with RANKX()** and filter top 5.
+
+---
+
+**33.** Which feature lets you analyze Power BI data in Excel?
+**Answer:** **Analyze in Excel**
+
+---
+
+**34.** Which visual can automatically detect anomalies in time series data?
+**Answer:** **Anomaly Detection** in **Line Chart (Analytics Pane)**.
+
+---
+
+**35.** Which Power BI tool lets you design pixel-perfect printed reports?
+**Answer:** **Power BI Report Builder**
+
+---
+
+**36.** What is the maximum dataset size for a Power BI Pro workspace?
+**Answer:** **1 GB per dataset**
+
+---
+
+**37.** How can you secure confidential reports exported as PDF?
+**Answer:** Apply **Sensitivity Labels** in Power BI Service.
+
+---
+
+**38.** You want to track dataset dependencies across workspaces. What feature helps?
+**Answer:** **Lineage View**
+
+---
+
+**39.** What happens when two relationships exist between the same tables?
+**Answer:** One is **active**, others are **inactive** and can be used via **USERELATIONSHIP()**.
+
+---
+
+**40.** What Power BI feature helps ensure consistent data definitions across reports?
+**Answer:** **Certified Datasets**
+
+---
+
+Would you like me to now make all these **40 new scenario-style questions** formatted into a `.docx` file (same as your first file) so you can add them directly as **Part 3 (Questions 61–100)**?
