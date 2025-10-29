@@ -1,0 +1,269 @@
+Excellent 🔥 — this is the **third major domain of the Power BI PL-300 exam** (worth about **25–30% of the total score**).
+
+Below are **40 “Visualize and Analyze the Data” Power BI questions and answers**, focused on **report design, visuals, interactivity, performance, AI visuals, and analytics tools** — ideal for both **exam prep and interviews**.
+
+---
+
+## 📊 **Power BI – “Visualize and Analyze the Data” Questions and Answers (1–40)**
+
+---
+
+### **1. What are visuals in Power BI?**
+
+**Answer:** Visuals are graphical representations of data such as charts, tables, and maps that help users analyze information interactively.
+
+---
+
+### **2. What is the difference between a report and a dashboard?**
+
+**Answer:**
+
+* **Report:** Multi-page, interactive visuals (created in Power BI Desktop).
+* **Dashboard:** Single-page collection of visuals pinned from reports (in Power BI Service).
+
+---
+
+### **3. How can you make a visual respond to user selections in another visual?**
+
+**Answer:** By using **visual interactions** (Format → Edit interactions).
+
+---
+
+### **4. How do slicers help in Power BI reports?**
+
+**Answer:** **Slicers** allow users to dynamically filter data in visuals.
+
+---
+
+### **5. What is the use of bookmarks in Power BI?**
+
+**Answer:** Bookmarks save a specific report state (filters, visuals, selections) for storytelling or navigation.
+
+---
+
+### **6. What is a tooltip in Power BI?**
+
+**Answer:** A **popup** that shows additional information when hovering over a data point.
+
+---
+
+### **7. How can you create a custom tooltip page?**
+
+**Answer:** Create a new page → enable **“Allow use as tooltip”** → design visuals for the tooltip.
+
+---
+
+### **8. What is a KPI visual used for?**
+
+**Answer:** To show progress toward a **target metric** using indicators like value, goal, and trend.
+
+---
+
+### **9. What is conditional formatting in Power BI visuals?**
+
+**Answer:** It applies dynamic **colors, icons, or bars** based on data values or measures.
+
+---
+
+### **10. What is the difference between a slicer and a filter?**
+
+**Answer:**
+
+* **Slicer:** Visual on the report canvas for user interaction.
+* **Filter:** Applied via the filter pane at visual, page, or report level.
+
+---
+
+### **11. What is drillthrough in Power BI?**
+
+**Answer:** Lets users **right-click a data point** to open a detailed page filtered for that context.
+
+---
+
+### **12. What is the difference between drillthrough and drilldown?**
+
+**Answer:**
+
+* **Drillthrough:** Navigates to another page with detailed context.
+* **Drilldown:** Expands hierarchy levels within the same visual.
+
+---
+
+### **13. How can you display top N values in a visual?**
+
+**Answer:** Apply a **Top N filter** in the visual-level filters pane.
+
+---
+
+### **14. What is the purpose of the Key Influencers visual?**
+
+**Answer:** It identifies factors that most influence a selected metric or outcome.
+
+---
+
+### **15. What is the Decomposition Tree visual used for?**
+
+**Answer:** To break down a measure into its contributing factors dynamically.
+
+---
+
+### **16. What is the Q&A visual in Power BI?**
+
+**Answer:** Allows users to type natural language questions and get instant visuals as answers.
+
+---
+
+### **17. What is cross-highlighting in Power BI?**
+
+**Answer:** Selecting a value in one visual highlights related values in other visuals.
+
+---
+
+### **18. How can you sync slicers across multiple report pages?**
+
+**Answer:** Use the **View → Sync Slicers Pane** and enable syncing for relevant pages.
+
+---
+
+### **19. What are the different types of filters in Power BI?**
+
+**Answer:** **Visual-level**, **Page-level**, and **Report-level** filters.
+
+---
+
+### **20. How can you show tooltips with additional metrics?**
+
+**Answer:** Add fields to the **Tooltips** well of the visual or use a **custom tooltip page**.
+
+---
+
+### **21. How do you create a hierarchy in a visual?**
+
+**Answer:** Drag and drop fields into another field (e.g., Year → Month → Day) and use **drilldown arrows** in visuals.
+
+---
+
+### **22. What is the difference between a table and a matrix visual?**
+
+**Answer:**
+
+* **Table:** Displays flat, detailed data.
+* **Matrix:** Allows **grouping and pivoting** (like Excel PivotTables).
+
+---
+
+### **23. What are report themes in Power BI?**
+
+**Answer:** JSON-based files that define **colors, fonts, and formatting** for consistent report design.
+
+---
+
+### **24. How can you improve report performance?**
+
+**Answer:**
+
+* Reduce number of visuals.
+* Use optimized DAX.
+* Limit complex interactions.
+* Use **aggregations** or **summarized tables**.
+
+---
+
+### **25. How can you highlight a single category or measure dynamically in a visual?**
+
+**Answer:** Use **dynamic titles** and **conditional formatting** with DAX measures.
+
+---
+
+### **26. How can you add a constant or target line to a chart?**
+
+**Answer:** Use the **Analytics pane → Add Constant Line**.
+
+---
+
+### **27. How do you format numbers and currencies in visuals?**
+
+**Answer:** Select the field → **Modeling → Format → Currency, Percentage, etc.**
+
+---
+
+### **28. What is a combo chart in Power BI?**
+
+**Answer:** Combines two chart types (e.g., Column and Line) to compare different metrics on one visual.
+
+---
+
+### **29. What is the benefit of using tooltips with a line chart?**
+
+**Answer:** Allows users to see **detailed data values** when hovering over a line point.
+
+---
+
+### **30. What is the use of the Performance Analyzer tool?**
+
+**Answer:** Measures how long each visual and DAX query takes to render for performance tuning.
+
+---
+
+### **31. How can you export data from a Power BI visual?**
+
+**Answer:** Click on the visual → **More options (…) → Export data** → choose **Summarized or Underlying** data.
+
+---
+
+### **32. How can you prevent users from exporting underlying data?**
+
+**Answer:** In **Report Settings**, select **“Allow only summarized data export.”**
+
+---
+
+### **33. What is a bookmark navigator?**
+
+**Answer:** A visual element that lets users navigate between bookmarks using buttons.
+
+---
+
+### **34. What are smart narratives in Power BI?**
+
+**Answer:** AI-generated **text summaries** that automatically describe insights in visuals.
+
+---
+
+### **35. How can you add navigation between report pages?**
+
+**Answer:** Use **Buttons → Action → Page Navigation**.
+
+---
+
+### **36. How can you visualize geographic data in Power BI?**
+
+**Answer:** Use **Map**, **Filled Map**, or **Azure Maps** visuals with geographic fields (Country, City, Latitude/Longitude).
+
+---
+
+### **37. How can you enable drillthrough to a specific region or category?**
+
+**Answer:** Create a drillthrough page → add the field to the **Drillthrough Filters** pane.
+
+---
+
+### **38. What is the use of the “Focus mode” in visuals?**
+
+**Answer:** Enlarges a visual to full screen for detailed analysis.
+
+---
+
+### **39. How can you create dynamic measures based on user selection?**
+
+**Answer:** Use a **What-If parameter** or **Switch DAX function** controlled by slicer input.
+
+---
+
+### **40. What are the benefits of visual-level filters?**
+
+**Answer:** They apply filters **only to a specific visual**, improving control and performance.
+
+---
+
+Would you like me to continue with the **next PL-300 domain — “Deploy and Maintain Assets” (40 questions)** next?
+That one covers **publishing, sharing, workspaces, refresh, security, and governance** — the final part of the Power BI exam.
