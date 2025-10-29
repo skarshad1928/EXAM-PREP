@@ -1,0 +1,200 @@
+Perfect ✅ — I’ll write **Part 1 (Questions 1–30)** in a clean **Question + Answer** format so you can copy and paste directly.
+These cover key Power BI and DAX interview concepts.
+
+---
+
+## 🧩 **Power BI Questions and Answers – Part 1 (1 to 30)**
+
+---
+
+### **1. What is the DAX function in Power BI that is equivalent to the COUNTA function in Excel?**
+
+**Answer:** The equivalent DAX function is **COUNTROWS()**, which returns the number of rows in a table that contain data.
+
+---
+
+### **2. What type of relationship must exist between fact and dimension tables in a star schema?**
+
+**Answer:** A **one-to-many (1:* )** relationship should exist from the dimension table to the fact table.
+
+---
+
+### **3. What is one advantage of creating measures using DAX instead of implicit measures?**
+
+**Answer:** DAX measures are **reusable, consistent, and easily maintained**, whereas implicit measures are limited to a single visual.
+
+---
+
+### **4. What is the best practice for modeling role-playing dimensions in Power BI?**
+
+**Answer:** Create **multiple relationships** (or duplicate the dimension table) and use **USERELATIONSHIP()** in DAX when needed.
+
+---
+
+### **5. What does the ISBLANK function do in DAX?**
+
+**Answer:** **ISBLANK()** checks whether a value is blank (empty) and returns **TRUE** if it is, otherwise **FALSE**.
+
+---
+
+### **6. Which setting controls the direction filters flow between related tables?**
+
+**Answer:** The **Cross-filter direction** setting in the **Manage Relationships** dialog controls filter flow (Single or Both).
+
+---
+
+### **7. What benefits does setting a data category for a column provide in Power BI?**
+
+**Answer:** It helps Power BI interpret the data correctly (e.g., geographic fields) and enables specific visuals like **maps**.
+
+---
+
+### **8. What is the difference between a one-to-many and a many-to-one relationship?**
+
+**Answer:**
+
+* **One-to-many:** A single record in one table relates to many in another (typical in star schemas).
+* **Many-to-one:** The reverse direction, usually created automatically by Power BI.
+
+---
+
+### **9. What is the purpose of the ALLEXCEPT function in Power BI?**
+
+**Answer:** **ALLEXCEPT()** removes all filters except the specified columns, preserving context for those columns.
+
+---
+
+### **10. What is the purpose of using variables in DAX measures?**
+
+**Answer:** Variables improve **readability**, **performance**, and allow **reuse** of expressions within a measure.
+
+---
+
+### **11. Which DAX function removes any filters applied to a specified column or table?**
+
+**Answer:** The **ALL()** function clears filters from the specified table or column.
+
+---
+
+### **12. How can you improve performance for a large report with many visuals and an imported dataset?**
+
+**Answer:** Reduce visuals, **aggregate data**, optimize DAX, or **switch to DirectQuery or Aggregations** for faster loading.
+
+---
+
+### **13. What happens when the CALCULATE function is used without filters?**
+
+**Answer:** It **evaluates the expression in the current filter context**—no context modification occurs.
+
+---
+
+### **14. What is the purpose of enabling the “Assume Referential Integrity” option in DirectQuery?**
+
+**Answer:** It allows Power BI to **generate inner joins** for better query performance when data integrity is guaranteed.
+
+---
+
+### **15. Where can you access the Performance Analyzer tool in Power BI Desktop?**
+
+**Answer:** Under the **View → Performance Analyzer** menu to measure visual and DAX query performance.
+
+---
+
+### **16. Which Power BI feature allows creating custom calculations using DAX?**
+
+**Answer:** **Calculated measures** and **calculated columns** in **Model View** or the **Data pane**.
+
+---
+
+### **17. How can a team analyze a Power BI dataset in Excel if they aren’t workspace members?**
+
+**Answer:** Grant them **Build permission** or share the dataset via **Analyze in Excel**.
+
+---
+
+### **18. Which feature ensures exported Power BI reports (PDFs) are encrypted?**
+
+**Answer:** Use **Microsoft Information Protection (Sensitivity Labels)** to encrypt exported files.
+
+---
+
+### **19. How do you add interactive charts from a report page to a Power BI dashboard?**
+
+**Answer:** Use **Pin Live Page** to pin visuals as interactive tiles.
+
+---
+
+### **20. How can you add a reference line showing median salary in a bar chart?**
+
+**Answer:** Use the **Analytics pane → Median Line** option on the visual.
+
+---
+
+### **21. A KPI visual should not be filtered while others are—what should you do?**
+
+**Answer:**
+
+1. Configure page-level or report-level filters for other visuals.
+2. Set the KPI visual’s **Edit Interactions → None**.
+
+---
+
+### **22. How to maximize screen use for a vertical Power BI display?**
+
+**Answer:** Change **Page Size → Custom → set height > width** for a vertical layout.
+
+---
+
+### **23. How to simplify a scatter plot showing dense transaction data without losing accuracy?**
+
+**Answer:** **Enable data point sampling** or **use binning/clustering** in the scatter chart.
+
+---
+
+### **24. How to be notified when daily defect percentage exceeds 3 %?**
+
+**Answer:** Create a **data-driven alert** on the KPI tile in the Power BI Service.
+
+---
+
+### **25. How to allow export of summarized but not underlying data?**
+
+**Answer:** Configure export settings in the **Report Settings → Export Data → Summarized Only** option.
+
+---
+
+### **26. How to create and prepare a tooltip page? (3 steps)**
+
+**Answer:**
+
+1. Turn **Allow use as tooltip = On** on the tooltip page.
+2. Add and configure visuals for the tooltip.
+3. Apply filters on the tooltip page as needed.
+
+---
+
+### **27. How to make verified datasets appear first in search results?**
+
+**Answer:** **Certify** or **Promote** those datasets in the Power BI Service.
+
+---
+
+### **28. Which feature lets all users tag admins about issues in dashboards?**
+
+**Answer:** Use the **Comments** feature in dashboards and reports.
+
+---
+
+### **29. Which visual automatically shows trends and updates based on selections?**
+
+**Answer:** The **Decomposition Tree** visual dynamically explores and updates trends.
+
+---
+
+### **30. What kind of insights does the Key Influencers visual provide?**
+
+**Answer:** It identifies **factors that most influence a selected metric** or outcome.
+
+---
+
+Would you like me to now continue with **Part 2 (Questions 31 – 60)** in the same clear “Question + Answer” style?
